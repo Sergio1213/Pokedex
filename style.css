@@ -16,19 +16,19 @@ background-color: rgb(255, 255, 255);
 h1 {
     color: #333;
     font-family: 'Pokemon Solid', sans-serif;
-  }
-  .presentation{
+}
+.presentation{
     margin-left: 75px;
-  }
-  .pokedex_container{
+}
+.pokedex_container{
     display: flex;
     flex-wrap: 20px;
-  }
-  .pokemon-card{
+}
+.pokemon-card{
     border: 1px solid #ccc;
     border-radius: 8px;
     margin: 10px;
     padding: 10px;
     text-align: center;
-    background-color: ;
-  }
+
+}
