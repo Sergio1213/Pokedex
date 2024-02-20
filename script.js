@@ -1,6 +1,6 @@
 const reqPokemon = () => {
   axios
-    .get('https://pokeapi.co/api/v2/pokemon/pikachu')
+    .get('https://pokeapi.co/api/v2/pokemon/arceus')
     .then(function (response) {
       const {
         data: {
