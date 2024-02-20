@@ -1,34 +1,37 @@
-body{
-    margin: 0;
+* {
+margin: 0;
+padding: 0;
+}
+body {
 background-color: rgb(255, 255, 255);
 }
-.main_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.main_container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
 }
-.game_boy{
-    width: 150px;
-    height: 300px;
-    background-color: #ed3833;
+.game_boy {
+width: 150px;
+height: 300px;
+background-color: #ed3833;
+border: 1px solid #ccc;
+border-radius: 8px;
+margin: 10px;
+padding: 10px;
+text-align: center;
+box-shadow: 0 4px 8pxs
+rgba(0, 0, 0, 0.1);
 }
 h1 {
-    color: #333;
-    font-family: 'Pokemon Solid', sans-serif;
+color: #333;
+font-family: 'Pokemon Solid', sans-serif;
 }
-.presentation{
-    margin-left: 75px;
+.presentation {
+margin-left: 75px;
 }
-.pokedex_container{
-    display: flex;
-    flex-wrap: 20px;
+.pokedex-container {
+display: flex;
+flex-wrap: 20px;
 }
-.pokemon-card{
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
 
-}

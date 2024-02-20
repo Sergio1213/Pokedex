@@ -6,6 +6,10 @@ Practice with pokedex
 - CSS
 - JS
 
+## API
+
+Poke API
+
 # FINAL DESIGN
 
 ![Design pokedex](/Design.jpg);
