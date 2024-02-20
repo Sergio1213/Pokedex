@@ -2,30 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <style>
-        @import url('https://fonts.cdnfonts.com/css/pokemon-solid');
-</style>
+      @import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+    </style>
 
     <title>Pokedex</title>
   </head>
   <body>
     <main class="main_container">
-      <div class="game_boy"></div>
+      <div class="game_boy">
+        <div class="leds">
+          <div class="top_circle"></div>
+          <div class="top_circle"></div>
+          <div class="top_circle"></div>
+        </div>
+        <div class="circle"></div>
+        <div class="marco"><div class="display"></div></div>
+        <div class="bottom">
+          <div class="joystick"></div>
+          <div class="poke_info"></div>
+          <div class="arrow">
+            <div class="x"></div>
+            <div class="y"></div>
+          </div>
+        </div>
+      </div>
       <div class="presentation">
         <h1>Pokedex</h1>
-        <div class="pokedex-container"></div>
+        <div class="pokedex_container"></div>
         <!---->
         <!---->
-        <div class="pokemon-card">
-
+        <input type="text" class="pokemon-card" />
       </div>
     </main>
     <script type="module" src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    
   </body>
 </html>
-
-

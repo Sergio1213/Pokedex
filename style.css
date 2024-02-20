@@ -1,38 +1,101 @@
 * {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
-background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 .main_container {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
 }
 .game_boy {
-width: 150px;
-height: 300px;
-background-color: #ed3833;
-border: 3px solid #060505;
-border-radius: 8px;
-margin: 10px;
-padding: 10px;
-text-align: center;
-box-shadow: 0 4px 8pxs
-rgba(0, 0, 0, 0.1);
+  height: 95%;
+  width: 32%;
+  background-color: #ed3833;
+  border: 3px solid #060505;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8pxs rgba(0, 0, 0, 0.1);
 }
-h1 {
-color: #333;
-font-family: 'Pokemon Solid', sans-serif;
+.leds {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  column-gap: 10px;
 }
-.presentation {
-margin-left: 75px;
+.top_circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #333;
 }
-.pokedex-container {
-display: flex;
-flex-wrap: 20px;
-background-color:black ;
+.circle {
+  height: 5rem;
+  width: 5rem;
+  background-color: rgb(125, 248, 248);
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+.marco {
+  display: flex;
+  height: 45%;
+  background-color: #a5a4a4;
+  margin-inline: 2rem;
+  margin-top: 1.5rem;
+  border-radius: 12px;
+  border-bottom-left-radius: 65px;
+}
+.bottom {
+  height: 100%;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+  display: flex;
+}
+.joystick {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: black;
+}
+.poke_info {
+  height: 20%;
+  width: 45%;
+  background-color: aquamarine;
+}
+.arrow {
+  height: 40%;
+  width: 60px;
+}
+.x {
+  height: 20px;
+  width: 80px;
+  background-color: black;
+  position: relative;
+  top: 63px;
+}
+.y {
+  width: 20px;
+  height: 80px;
+  background-color: black;
+  position: relative;
+  left: 38px;
 }
 
+h1 {
+  color: #333;
+  font-family: 'Pokemon Solid', sans-serif;
+}
+.presentation {
+  height: 100%;
+  width: 50%;
+}
+.pokedex-container {
+  display: flex;
+  flex-wrap: 20px;
+  background-color: black;
+}
