@@ -1,133 +1,38 @@
 * {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
-    height: 100%;
-    width: 100vh;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 16rem;
-    margin-top: 8rem;
+background-color: rgb(255, 255, 255);
+}
+.main_container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.game_boy {
+width: 150px;
+height: 300px;
+background-color: #ed3833;
+border: 3px solid #060505;
+border-radius: 8px;
+margin: 10px;
+padding: 10px;
+text-align: center;
+box-shadow: 0 4px 8pxs
+rgba(0, 0, 0, 0.1);
+}
+h1 {
+color: #333;
+font-family: 'Pokemon Solid', sans-serif;
+}
+.presentation {
+margin-left: 75px;
+}
+.pokedex-container {
+display: flex;
+flex-wrap: 20px;
+background-color:black ;
 }
 
-main{
-    height: 200%;
-    width: 40vh;
-    background-color: #ce0f30;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
- .pokedex_board{
-    width: 150px;
-    height: 140px;
-    background-color: rgb(225, 220, 213);
-    border-radius: 2px;
-    border-bottom-left-radius: 25px;
-    border: 1px solid;
-    margin-top: 5rem;
-    box-shadow: 4px 5px 0px 0px rgba(0,0,0,0.76);
-    -webkit-box-shadow: 4px 5px 0px 0px rgba(0,0,0,0.76);
-    -moz-box-shadow: 4px 5px 0px 0px rgba(0,0,0,0.76);
- }
-
-.pokedex_frame{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.top_bttns{
-    display: flex;
-    gap: 4px;
-    margin-top: 2px;
-    
-}
-.redbtn1_top{
-    height: 7px;
-    width: 7px;
-    background-color: #ce0f30;
-    border-radius: 100%;
-    border: .20px solid;
-    
-}
-.redbtn2_top{
-    height: 7px;
-    width: 7px;
-    background-color: #ce0f30;
-    border-radius: 100%;
-    border: .20px solid;
-
-}
-
-
-.pokemon{
-    display: flex;
-}
-.pokemon img{
-    width: 120px;
-    height: 95px;
-    padding-left: 15px;
-    border-radius: 1px;
-    margin-top: 2px;
-
-}
-
-.lines{
-    width: 5%;
-    height: 5vh;
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-    padding-left: 6rem;
-    margin-top: 7px;
-}
-
-.line1{
-    height: 2px;
-    width: 20px;
-    background-color: rgb(182, 178, 173);
-    border-radius: 3px;
-}
-
-.line2{
-    height: 2px;
-    width: 20px;
-    background-color: rgb(182, 178, 173);
-    border-radius: 3px;
-}
-
-.line3{
-    height: 2px;
-    width: 20px;
-    background-color: rgb(182, 178, 173);
-    border-radius: 3px;
-}
-
-.line4{
-    height: 2px;
-    width: 20px;
-    background-color: rgb(182, 178, 173);
-    border-radius: 3px;
-}
-
-.red_bton1{
-    display: flex;
-    margin-top: -30px;
-}
-
-.redbtn1_bott{
-    height: 20px;
-    width: 20px;
-    background-color: #ce0f30;
-    border-radius: 100%;
-    border: .20px solid;
-    margin-right: 100px;
-
-}
